@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.main{
+    position:relative;
+    width:100%;
+
+}
+
+nav{
+    margin:auto;
+
+   
+}
+
+nav ul li{
+    display:inline-block;
+    margin:10px 20px;
+}
+
+nav ul li a{
+    font-weight:bold;
+
+}
+
+.bio{
+    margin-left:8%;
+    margin-top:13%;
+}
+
+.bio h1{
+    font-size:50px;
+    color:#dd008b;
+    margin-bottom:20px;
+}
+
+
+.bio p{
+    color:grey;
+    line-height:22px;
+}
+
+.bio a{
+    background:black;
+    padding:10px 18px;
+    text-decoration:none;
+    font-weight:bold;
+    color:white;
+    display:inline-block;
+    margin:30px;
+    border-radius:5px;
+}
+
+.media{
+    width:45%;
+    height:80%;
+    position:absolute;
+    bottom:0;
+    right:100px;
+}
+
+.media .selfie{
+    position:absolute;
+    left:30%;
+    top:100px;
+    height:375px;
+    width:280px;
+}
+
+
+.media:hover .selfie{
+    left:45%;
+   
+}
+
+
+.media .shape{
+    position:absolute;
+    left:15%;
+    top:90px;
+    height:400px;
+    width:450px;
+}
+
+.logo{
+    height:100px;
+    width:180px;
+}
+footer{
+    background-color:#C43684;
+    text-align:center;
+    font-size:20px;
+    position:absolute;
+    top:100%;
+
+
+}
+
+.neuro{
+    margin:40px;
+    height:200px;
+    width:max-content
+
+}
+
+.pink{
+    color: #dd008b;;
+}
+
+.center{
+    text-align:center;
+}
+
+.north{
+    margin:10px;
+    height:200px;
+    width:310px;
+    
+}
+
+.hopkins{
+    margin:10px;
+    height:200px;
+    width:310px;
+}
+
+img{
+    height:300px;
+    width:200px;
+    margin:10px;
+}
+
+.square{
+    width:300px;
+    height:200px;
+    background-color:#FDD7EC;
+    
+}
+
+.tall{
+    height:300px;
+    width:200px;
+}
